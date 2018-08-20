@@ -8,7 +8,12 @@
 </template>
 <script>
     export default {
-         props: ['icon']
+        props: ['icon', 'event'],
+        methods: {
+            sayHi: function() {
+                alert('hi')
+            }
+        }
     }
 </script>
 <style lang="scss">
